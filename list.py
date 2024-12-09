@@ -18,3 +18,14 @@ print(marks[1])
 print(marks[2])
 print(marks[3])
 print(marks[4])
+
+# List index
+colour = ['red', 'green', 'yellow']
+print(colour[0])
+print(colour[1])
+print(colour[2])
+
+# Negative indexing
+marks = [3, 5, 6, 'Ashraf', True]
+print(marks[-3])
+print(marks[len(marks)-3])
