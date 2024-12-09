@@ -60,3 +60,19 @@ print(thislist)
 list = ["apple", "banana", "cherry", "mango"]
 list.insert(1, 'orange')
 print(list)
+
+
+list = ["apple", "banana", "cherry", "mango"]
+list.append('watermilon')
+print(list)
+
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+thislist.extend(tropical)
+print(thislist)
+
+
+list = ["apple", "banana", "cherry"]
+add_list = ("kiwi", "orange")
+list.extend(add_list)
+print(list)
