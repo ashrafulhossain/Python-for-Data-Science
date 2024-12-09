@@ -35,6 +35,7 @@ print(jump)
 print(jump[1:8])
 print(jump[1:8:3])
 
+
 list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(list[-4:-1])
 
@@ -48,4 +49,14 @@ else:
 
 list = ["apple", "banana", "cherry", "mango"]
 list[2] = 'orange'
+print(list)
+
+
+thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
+thislist[1:3] = ["blackcurrant", "watermelon"]
+print(thislist)
+
+
+list = ["apple", "banana", "cherry", "mango"]
+list.insert(1, 'orange')
 print(list)
