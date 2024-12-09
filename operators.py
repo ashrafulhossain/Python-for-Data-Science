@@ -67,3 +67,43 @@ print('Ashraf' in  name)
 print('Shakib' not in name)
 
 print('Nokib' not in name)
+
+# Comparison Operators
+
+a = 10
+b = 10
+print(a == b)
+
+a = 10
+b = 5
+print(a != b)
+
+a = 5
+b = 10
+print(a < b)
+
+a = 9
+b = 10
+print(a > b)
+
+a = 10
+b = 10
+print(a >= b)
+
+a = 25
+b = 10
+print(a <= b)
+
+age = 18
+if age >= 18:
+    print("you can do the vote")
+else:
+    print("you can't do the vote")
+
+
+
+
+
+
+
+
