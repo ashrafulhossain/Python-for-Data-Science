@@ -57,3 +57,13 @@ print(list1 is list3)
 print(list1 is not list3)
 print(list1 is not list2)
 
+# Membership Operators
+name = ['Ashraf', 'Shakib', 'Rakib']
+
+# in operator
+print('Ashraf' in  name)
+
+#Not in operator
+print('Shakib' not in name)
+
+print('Nokib' not in name)
