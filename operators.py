@@ -44,3 +44,16 @@ print(res1)
 res2 = not(x < 5 and x < 20)
 print(res2)
 
+#Identity Operators
+
+list1 = ['Ashraf', 'Shakib', 'Rakib']
+list2 = ['Ashraf', 'Shakib', 'Rakib']
+list3 = list1
+
+# is operator
+print(list1 is list3)
+
+# is not operator
+print(list1 is not list3)
+print(list1 is not list2)
+
