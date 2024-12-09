@@ -37,3 +37,15 @@ print(jump[1:8:3])
 
 list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(list[-4:-1])
+
+
+thislist = ["apple", "banana", "cherry"]
+if "apple" in thislist:
+  print("Yes, 'apple' is in the fruits list")
+else:
+    print('No','apple is  not in the fruits list')
+
+
+list = ["apple", "banana", "cherry", "mango"]
+list[2] = 'orange'
+print(list)
