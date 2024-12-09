@@ -29,3 +29,11 @@ print(colour[2])
 marks = [3, 5, 6, 'Ashraf', True]
 print(marks[-3])
 print(marks[len(marks)-3])
+
+jump = [3, 5, 6, 'Ashraf', True, 6, 7, 2, 32, 345, 23]
+print(jump)
+print(jump[1:8])
+print(jump[1:8:3])
+
+list = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
+print(list[-4:-1])
