@@ -31,3 +31,16 @@ a *= 5 # a= a * 5
 print(a)
 
 # Logical Operators
+x = 10
+# And operators
+res = x > 5 and x < 20
+print(res)
+
+#Or operators
+res1 = x < 5 or x > 8
+print(res1)
+
+#Not operators
+res2 = not(x < 5 and x < 20)
+print(res2)
+
