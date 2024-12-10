@@ -72,3 +72,41 @@ thisdict = {
 }
 if "model" in thisdict:
   print("Yes, 'model' is one of the keys in the thisdict dictionary")
+
+
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+dict.pop('year')
+print(dict)
+
+
+data_science = {
+    'Ml' : 'sk_learn',
+    'Dl' : 'Tenserflow',
+    'DA' : 'Power Bi',
+    'NLP' : 'NLTk'
+}
+
+science = data_science.copy()
+print(science)
+
+
+#nested_dictonary
+myfamily = {
+  "child1" : {
+    "name" : "Emil",
+    "year" : 2004
+  },
+  "child2" : {
+    "name" : "Tobias",
+    "year" : 2007
+  },
+  "child3" : {
+    "name" : "Linus",
+    "year" : 2011
+  }
+}
+print(myfamily)
