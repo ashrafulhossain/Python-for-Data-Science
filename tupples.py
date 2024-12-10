@@ -80,4 +80,14 @@ print(type(yellow))
 print(type(red))
 print(type(fruits))
 
+# joins tuple
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+
+print(mytuple)
+
+number = (2, 6, 8, 10)
+number_tup = number * 2
+print(number_tup)
+
 
