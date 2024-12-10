@@ -102,3 +102,9 @@ print(number)
 list = ["apple", "banana", "cherry", "mango"]
 list.reverse()
 print(list)
+
+
+#copy
+list = ["apple", "banana", "cherry", "mango"]
+my_list = list.copy()
+print(my_list)
