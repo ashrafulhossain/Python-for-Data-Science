@@ -61,3 +61,23 @@ name_rem = list(name)
 name_rem.pop(2)
 name = tuple(name_rem)
 print(name)
+
+
+#unapacking tupple
+name = ('ashra', 'shakib', 'karim')
+(ashra, shakib, karim) = name
+print(ashra)
+print(shakib)
+print(karim)
+
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+(green,yellow,  *red) = fruits
+print(green)
+print(yellow)
+print(red)
+print(type(yellow))
+print(type(red))
+print(type(fruits))
+
+
