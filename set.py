@@ -49,3 +49,18 @@ set1 = {1, 2, 3, 4}
 set2 = {3, 4, 5, 6, 7}
 set_symetric = set1.symmetric_difference(set2)
 print(set_symetric)
+
+set = {1, 2, 3, 4}
+for i in set:
+    print(i)
+
+fruits = {"apple", "banana", "cherry"}
+
+print("banana" in fruits)
+
+fruit_one = {"apple", "banana", "cherry"}
+fruit_two = {"pineapple", "mango", "papaya"}
+
+fruit_one.update(fruit_two)
+
+print(fruit_one)
