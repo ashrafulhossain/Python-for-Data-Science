@@ -40,3 +40,31 @@ elif age > 30 or age < 35:
   print('age is between 30 and 35')
 else:
   print('age is greater then or equal 30')
+
+
+score = 78
+if score >= 90:
+  print("Letter grade is: ", 'A')
+elif score >= 80:
+  print("Letter grade is ", 'B')
+elif score >= 70:
+  print("Letter grade is ", 'C')
+elif score >= 60:
+  print("Letter grade is ", 'D')
+else:
+  print("Letter grade is " 'F')
+
+
+score = 80
+if score >= 90:
+ letter_grade = 'A'
+elif score >= 80:
+ letter_grade = 'B'
+elif score >= 70:
+  letter_grade = 'C'
+elif score >= 60:
+  letter_grade = 'D'
+else:
+   letter_grade = 'F'
+
+print("letter grade:", letter_grade)
