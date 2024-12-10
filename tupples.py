@@ -21,3 +21,25 @@ if 'apple' in tup:
     print('yes')
 else:
     print('no')
+
+#update tupples
+
+countries = ('spain', 'bangladesh', 'usa', 'nepal', 'germany')
+update_tup = list(countries)
+update_tup.append('singapur')
+countries = tuple(update_tup)
+print(countries)
+
+
+
+countries = ('spain', 'bangladesh', 'usa', 'nepal', 'germany')
+update_tup = list(countries)
+update_tup[3] = 'austria'
+countries = tuple(update_tup)
+print(countries)
+
+countries = ('spain', 'bangladesh', 'usa', 'nepal', 'germany')
+update_tup = list(countries)
+update_tup.pop(1)
+countries = tuple(update_tup)
+print(countries)
