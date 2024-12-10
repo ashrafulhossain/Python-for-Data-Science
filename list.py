@@ -76,3 +76,14 @@ list = ["apple", "banana", "cherry"]
 add_list = ("kiwi", "orange")
 list.extend(add_list)
 print(list)
+
+
+#remove
+thislist = ["apple", "banana", "cherry", "banana", "kiwi"]
+thislist.remove("banana")
+print(thislist)
+
+list = ["apple", "banana", "cherry", "mango"]
+list.pop(2)
+print(list)
+
