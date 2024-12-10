@@ -26,3 +26,14 @@ fruits = {'apple', 'mango', 'orange'}
 fruits.discard('banana')
 print(fruits)
 
+# union
+set1 = {1, 2, 3,}
+set2 = {3, 4, 5}
+set_union = set1.union(set2)
+print(set_union)
+
+#intersection
+set_a = {'ashraful', 'rakib', 'shakib', 'nokib'}
+set_b = {'rakib', 'jashim', 'ashraful','jakir'}
+set_inter = set_a.intersection(set_b)
+print(set_inter)
