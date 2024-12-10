@@ -58,5 +58,17 @@ data_science = {
 print(data_science)
 
 x = data_science.keys()
+print(x)
 data_science['Network'] = 'Lan'
 print(data_science)
+x = data_science.items()
+print(x)
+
+
+thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+if "model" in thisdict:
+  print("Yes, 'model' is one of the keys in the thisdict dictionary")
