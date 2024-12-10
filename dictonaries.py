@@ -110,3 +110,5 @@ myfamily = {
   }
 }
 print(myfamily)
+print(myfamily['child3']['year'])
+
