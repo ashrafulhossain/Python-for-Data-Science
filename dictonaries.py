@@ -23,3 +23,40 @@ thisdict = {
   "colors": ["red", "white", "blue"]
 }
 print(thisdict)
+
+#access
+
+dict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+print(dict['brand'])
+
+
+car = {
+"brand": "Ford",
+"model": "Mustang",
+"year": 1964
+}
+
+x = car.keys()
+
+print(x) #before the change
+
+car["color"] = "white"
+
+print(x) #after the change
+
+
+data_science = {
+    'Ml' : 'sk_learn',
+    'Dl' : 'Tenserflow',
+    'DA' : 'Power Bi',
+    'NLP' : 'NLTk'
+}
+print(data_science)
+
+x = data_science.keys()
+data_science['Network'] = 'Lan'
+print(data_science)
