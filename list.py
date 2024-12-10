@@ -87,3 +87,18 @@ list = ["apple", "banana", "cherry", "mango"]
 list.pop(2)
 print(list)
 
+list = ["apple", "banana", "cherry", "mango"]
+list.clear()
+print(list)
+
+
+#sort
+number = [50, 45, 23, 67, 87]
+number.sort()
+print(number)
+
+
+#reverse
+list = ["apple", "banana", "cherry", "mango"]
+list.reverse()
+print(list)
