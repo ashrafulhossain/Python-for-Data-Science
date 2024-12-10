@@ -68,3 +68,12 @@ else:
    letter_grade = 'F'
 
 print("letter grade:", letter_grade)
+
+
+num = int(input("please enter a number: "))
+if num > 0:
+  print("you have entered a positve number")
+elif num < 0:
+  print("you have entered a negative number")
+else:
+  print("you have entered a zero number")
