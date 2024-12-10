@@ -43,3 +43,21 @@ update_tup = list(countries)
 update_tup.pop(1)
 countries = tuple(update_tup)
 print(countries)
+
+name = ('ashra', 'shakib', 'nokib', 'jakir', 'karim')
+name_one =('hossain',)
+name += name_one
+print(name)
+
+name = ('ashra', 'shakib', 'nokib', 'jakir', 'karim')
+name_rem = list(name)
+name_rem.remove('karim')
+name = tuple(name_rem)
+print(name)
+
+
+name = ('ashra', 'shakib', 'nokib', 'jakir', 'karim')
+name_rem = list(name)
+name_rem.pop(2)
+name = tuple(name_rem)
+print(name)
