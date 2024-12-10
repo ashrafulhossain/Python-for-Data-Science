@@ -37,3 +37,15 @@ set_a = {'ashraful', 'rakib', 'shakib', 'nokib'}
 set_b = {'rakib', 'jashim', 'ashraful','jakir'}
 set_inter = set_a.intersection(set_b)
 print(set_inter)
+
+#difference
+set1 = {1, 2, 3,}
+set2 = {3, 4, 5}
+set_dif = set1.difference(set2)
+print(set_dif)
+
+#symetric difference
+set1 = {1, 2, 3, 4}
+set2 = {3, 4, 5, 6, 7}
+set_symetric = set1.symmetric_difference(set2)
+print(set_symetric)
