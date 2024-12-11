@@ -82,3 +82,12 @@ total = []
 for i in range(5, 10):
     total.append(i * 2)
 print(total)
+
+for x in range(6):
+  if x == 3:
+    break
+  print(x)
+else:
+  print("Finally finished!")
+
+
