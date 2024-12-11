@@ -77,3 +77,8 @@ for i in range(len(colors)):
 name = ['Ashraful', 'Shakib', 'Nokib', 'Rakib']
 for i in range(len(name)):
     print(f"Index {i}: {name[i]}")
+
+total = []
+for i in range(5, 10):
+    total.append(i * 2)
+print(total)
