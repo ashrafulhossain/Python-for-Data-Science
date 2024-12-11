@@ -66,7 +66,7 @@ elif score >= 60:
   letter_grade = 'D'
 else:
    letter_grade = 'F'
-
+print("letter grade:", letter_grade)
 
 
 # condition
@@ -84,7 +84,7 @@ else:
 
 print("Enjoy  your day")
 
-print("letter grade:", letter_grade)
+
 
 
 num = int(input("please enter a number: "))
@@ -94,3 +94,13 @@ elif num < 0:
   print("you have entered a negative number")
 else:
   print("you have entered a zero number")
+
+
+high_income = True
+good_credit = False
+
+if high_income or good_credit :
+  print("Eligable for loan")
+
+else :
+  print("Not eligable")
