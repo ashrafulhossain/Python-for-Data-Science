@@ -67,6 +67,23 @@ elif score >= 60:
 else:
    letter_grade = 'F'
 
+
+
+# condition
+is_rain = False
+is_winter = True
+
+if is_rain :
+   print("Take the umbrella as well as raincoat")
+
+elif is_winter :
+   print("wear warm clothes")
+
+else:
+    print("go out normally")
+
+print("Enjoy  your day")
+
 print("letter grade:", letter_grade)
 
 
