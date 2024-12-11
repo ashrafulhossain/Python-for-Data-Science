@@ -74,3 +74,6 @@ colors = ["red", "green", "blue"]
 for i in range(len(colors)):
     print(f"Index {i}: {colors[i]}")
 
+name = ['Ashraful', 'Shakib', 'Nokib', 'Rakib']
+for i in range(len(name)):
+    print(f"Index {i}: {name[i]}")
