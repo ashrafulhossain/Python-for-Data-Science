@@ -69,3 +69,8 @@ total = 0
 for number in numbers:
     total += number
     print(total)
+
+colors = ["red", "green", "blue"]
+for i in range(len(colors)):
+    print(f"Index {i}: {colors[i]}")
+
