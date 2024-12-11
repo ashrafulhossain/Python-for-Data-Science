@@ -91,3 +91,17 @@ else:
   print("Finally finished!")
 
 
+
+
+colours = ['red', 'black', 'white', 'orange']
+for colour in colours:
+    if colour == 'black':
+        break
+    print('its my favourite colour')
+else:
+    print('finally')
+
+
+
+
+
