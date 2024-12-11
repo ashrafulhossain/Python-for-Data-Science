@@ -48,5 +48,10 @@ for k in range(10):
 for k in range(1, 11):
     print(k)
 
+for k in range(0, 101, 10):
+    print(k)
+
+
+
 
 
