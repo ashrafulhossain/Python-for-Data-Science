@@ -37,11 +37,13 @@ for key, value in colours.items():
         print('its my faboure rose')
 
 
-
 numbers = (10, 20, 30, 40)
 for number in numbers:
     print(number)
 
+
+for k in range(10):
+    print(k)
 
 
 
