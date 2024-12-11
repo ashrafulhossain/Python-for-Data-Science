@@ -51,6 +51,12 @@ for k in range(1, 11):
 for k in range(0, 101, 10):
     print(k)
 
+for i in range(0, 11):
+    if i % 2 == 0:
+        print(f'{i} is even number')
+    else:
+        print(f'{i} is a odd number')
+
 
 
 
