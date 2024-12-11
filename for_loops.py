@@ -102,6 +102,16 @@ else:
     print('finally')
 
 
+colours = ['black', 'white', 'orange']
+for colour in colours:
+    if colour == 'red':
+        break
+    print('its my favourite colour')
+else:
+    print('finally find the colour')
+
+
+
 
 
 
