@@ -34,3 +34,15 @@ for i in range(1, 11):
     print(f"Odd number: {i}")
 
 
+
+total = 0
+counter = 1
+
+while True:
+    total += counter
+    print(f"Added {counter}, Total: {total}")
+    if total > 20:
+        print("Total exceeded 20, breaking out of the loop.")
+        break
+    counter += 1
+
