@@ -46,3 +46,13 @@ while True:
         break
     counter += 1
 
+
+num = 0
+
+while num < 10:
+    num += 1
+    if num % 3 == 0:
+        continue
+    print(f"Current number: {num}")
+
+
