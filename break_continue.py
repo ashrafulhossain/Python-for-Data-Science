@@ -56,3 +56,10 @@ while num < 10:
     print(f"Current number: {num}")
 
 
+for x in range(1, 5):
+    for y in range(1, 5):
+        print(f"Checking pair: ({x}, {y})")
+        if x * y == 6:
+            print("Pair found! Breaking out of the inner loop.")
+            break
+
