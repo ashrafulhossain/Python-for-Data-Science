@@ -63,3 +63,11 @@ for x in range(1, 5):
             print("Pair found! Breaking out of the inner loop.")
             break
 
+
+
+for x in range(1, 5):
+    for y in range(1, 5):
+        if x == 3 or y == 3:
+            continue
+        print(f"Processing pair: ({x}, {y})")
+
