@@ -7,3 +7,10 @@
  # > Organized Code: Large programs can be divided into smaller, manageable parts.
  # > Easy Debugging: Errors can be identified more easily.
  # > Parameter Passing: Data can be passed into the function for processing.
+
+
+def calculate(a, b):
+    total = a + b
+    return total
+sum = calculate(10, 20)
+print(sum)
