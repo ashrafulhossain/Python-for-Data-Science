@@ -24,3 +24,22 @@ def calculate(a, b):
 
 sum = calculate(20, 10)
 print(sum)
+
+
+def calculate(a, b):
+    total = a + b
+    substraction = a - b
+    multipication = a * b
+    return total, substraction, multipication
+
+sum = calculate(20, 10)
+print(sum)
+
+def calculate(a, b):
+    total = a + b
+    substraction = a - b
+    multipication = a * b
+    return total, substraction, multipication
+
+sum = calculate(20, 10)
+print(sum)
