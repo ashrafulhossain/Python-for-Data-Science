@@ -43,3 +43,15 @@ def calculate(a, b):
 
 sum = calculate(20, 10)
 print(sum)
+
+
+def calculate(a, b):
+    total = a + b
+    substraction = a - b
+    multipication = a * b
+    division = a / b
+    return total, substraction, multipication, division
+
+sum = calculate(20, 10)
+print(sum)
+
