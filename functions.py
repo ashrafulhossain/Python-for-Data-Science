@@ -14,3 +14,13 @@ def calculate(a, b):
     return total
 sum = calculate(10, 20)
 print(sum)
+
+
+
+def calculate(a, b):
+    total = a + b
+    substraction = a - b
+    return total, substraction
+
+sum = calculate(20, 10)
+print(sum)
