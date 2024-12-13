@@ -78,6 +78,10 @@ def is_prime(num):
 number = 29
 print(f"Is {number} prime? {is_prime(number)}")
 
+def reverse_string(s):
+    return s[::-1]
+text = "Python"
+print("Reversed string:", reverse_string(text))
 
 
 
