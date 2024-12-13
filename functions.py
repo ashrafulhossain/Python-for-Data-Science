@@ -55,3 +55,14 @@ def calculate(a, b):
 sum = calculate(20, 10)
 print(sum)
 
+
+def isGreater(x, y):
+    if x > y:
+        return 'X is greater than Y'
+    else:
+        return 'X is less than Y'
+
+character = isGreater(50, 40)
+print(character)
+
+
