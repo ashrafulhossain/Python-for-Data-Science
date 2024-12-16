@@ -95,3 +95,13 @@ def factorial(n):
 number = 5
 print(f"Factorial of {number}:", factorial(number))
 
+
+def my_function(food):
+  for x in food:
+    print(x)
+
+fruits = ["apple", "banana", "cherry"]
+
+my_function(fruits)
+
+
